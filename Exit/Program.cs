@@ -10,11 +10,11 @@ namespace Exit
     {
         static void Main(string[] args)
         {
-            string exit = "exit";
+            string exitWord = "exit";
             string usertInput = " ";  
-            Console.WriteLine("Input 'exit' to exit or somethimg else for something else");
+            Console.WriteLine($"Input {exitWord} to exit or somethimg else for something else");
             
-            while (usertInput != exit) 
+            while (usertInput != exitWord) 
             {
                 usertInput = Console.ReadLine();
             }
