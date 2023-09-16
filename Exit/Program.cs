@@ -10,12 +10,15 @@ namespace Exit
     {
         static void Main(string[] args)
         {
+            string exit = "exit";
             string usertInput = " ";  
             Console.WriteLine("Input 'exit' to exit or somethimg else for something else");
-            while (usertInput != "exit") 
+            
+            while (usertInput != exit) 
             {
                 usertInput = Console.ReadLine();
             }
+
         }
     }
 }
